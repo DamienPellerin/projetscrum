@@ -9,5 +9,35 @@
 </head>
 <body>
     
+     <h1>Formulaire d'inscriptions</h1>
+
+    <form class="container" method="POST" action="index.html">  
+
+        <label  for="lastname"></label>
+        <input placeholder="Nom" type="text" name="lastname" id="lastname" />
+
+        <label for="firstname"></label>
+        <input placeholder="Prénom" type="text" name="firstname" id="firstname" /> <br>
+
+
+        
+            <label for="address"></label>
+            <textarea  rows="10" cols="30" placeholder="Adresse" name="address" id="address" autocomplete="street-address"></textarea> <br>
+        
+
+        
+        <label for="email"></label>
+        <input placeholder="Mail" type="email" name="email" id="email" /> <br>
+
+        <label for="phone"></label>  
+        <input placeholder="Téléphone" type="number" name="phone" id="phone" /> <br>  
+        
+        <button type="submit" value="S'inscrire" #="submit">S'inscrire</button>
+       
+    </form>
+
+
+
+
 </body>
 </html>

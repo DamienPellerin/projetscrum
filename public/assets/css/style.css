@@ -1,0 +1,63 @@
+.container{
+    margin-left: 180px;
+    position: relative;
+    
+}
+
+h1{
+text-align: center;
+
+}
+
+#lastname{
+    width: 461px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgba(232, 232, 232, 1);
+}
+
+#firstname{
+    width: 461px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: rgba(232, 232, 232, 1);
+
+}
+
+#address{
+    width: 955px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgba(232, 232, 232, 1);
+}
+
+#email{
+    width: 955px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgba(232, 232, 232, 1);
+}
+
+#phone{
+    width: 955px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgba(232, 232, 232, 1);
+}
+
+button{
+width: 344px;
+height: 100px;
+border-radius: 10px;
+position: absolute;
+left: 25%;
+background-color: rgba(13, 136, 205, 1);
+
+
+
+}
