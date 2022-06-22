@@ -3,6 +3,8 @@
     src: url("../../font/JosefinSans-VariableFont_wght.ttf");
 }
 
+/* Début de mise en forme du header */
+
 * {
     margin: 0;
     padding: 0;
