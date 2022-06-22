@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Josefin";
+    src: url("../../font/JosefinSans-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 10px 10px 10px 10px;
+    height: 80%;
+    margin-left: 20%;
+}
+
+nav {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+nav ul {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav li {
+    padding-left: 70px;
+    list-style-type: none;  
+    white-space: nowrap;
+    
+}
+
+.linkNavHeader {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    font-family: 'Josefin';
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 15% 20% 65%;
+    grid-template-rows: 100%;
+    width: 80%;
+    background-color: #11AB7C;
+    margin-left: 10%;
+    height: 150px;
+}
