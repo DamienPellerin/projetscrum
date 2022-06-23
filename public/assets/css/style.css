@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+font-face {
+    font-family: "Josefin";
+    src: url("../../font/JosefinSans-VariableFont_wght.ttf");
+}
+
 #container {
     display: grid;
     grid-column-start: 1;
@@ -9,7 +13,9 @@
     "left" "left" "left" "left"
     "right";
     width: 1200px;
-    height: 600px; 
+    height: 600px;
+    margin-left: 10%;
+    height: 120px; 
 }
 
 .topleft {
@@ -73,11 +79,6 @@
     grid-row-end: 7;
 }
 
-=======
-@font-face {
-    font-family: "Josefin";
-    src: url("../../font/JosefinSans-VariableFont_wght.ttf");
-}
 
 /* Début de mise en forme du header */
 
@@ -127,4 +128,4 @@ header {
     margin-left: 10%;
     height: 120px;
 }
->>>>>>> 553f64d3ce70b14ae06c7586b5ad5d5b06406783
+
