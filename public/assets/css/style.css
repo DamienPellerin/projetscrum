@@ -53,7 +53,7 @@ nav li {
 }
 
 li a:hover {
-    color: rgba(13, 136, 205, 1);
+    color: linear-gradient(#11AB7C, #0D88CD);
 }
 /* Début article */
 
@@ -221,7 +221,7 @@ button{
     width: 40%;
     height: 80px;
     border-radius: 10px;
-    background-color: rgba(13, 136, 205, 1);
+    background: linear-gradient(#085a8a, #0D88CD);
     color: white;
     margin-bottom: 5%;
     font-size: 20px;
