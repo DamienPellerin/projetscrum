@@ -25,15 +25,10 @@
 
 .topright {
     grid-area: 1/2/2/3;
-<<<<<<< HEAD
 
     background-color: red;
 
 
-=======
-    height: 100%;
-    width: 100%;
->>>>>>> 295c2b6cb901b0c564fe949566c894528627a7b6
 }
 
 .bottomleft {
@@ -90,13 +85,10 @@
     background-color: #11AB7C;
 }
 
-<<<<<<< HEAD
 input::placeholder{
     text-align: center;
 }
 
-=======
->>>>>>> 295c2b6cb901b0c564fe949566c894528627a7b6
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -109,10 +101,7 @@ h1{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-<<<<<<< HEAD
     color:white;
-=======
->>>>>>> 295c2b6cb901b0c564fe949566c894528627a7b6
 }
 
 #lastname{
@@ -216,94 +205,3 @@ nav li {
 
 /* Début du la zone "Informations Sanitaires" */
 
-<<<<<<< HEAD
-=======
-.sanitInfo {
-    font-family: "Josefin";
-    display: flex;
-    width: 80%;
-    height: 400px;
-    margin-left: 10%;
-    background-color: #E8E8E8;
-}
-
-.sanitInfoText {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    height: 70%;
-    margin-left: 10%;
-    margin-top: 2%;
-}
-
-.sanitInfoText h2 {
-    font-size: 30px;
-}
-
-.sanitInfoText > p, ul {
-    font-size: 25px;
-}
-
-.sanitInfoText ul {
-    margin-left: -10%;
-}
-
-/* Fin de la zone "Informations Sanitaires" */
-
-/* Début du Plan d'accès */
-
-#accessPlan {
-    font-family: "Josefin";
-    width: 80%;
-    height: 800px;
-    margin-left: 10%;
-    background-color: #11AB7C;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#accessPlan h2 {
-    margin-top: 2%;
-    color: white;
-    font-size: 200%;
-}
-
-.accessPlanImg {
-    width: 80%;
-    height: 70%;
-    margin-bottom: 5%;
-}
-
-.accessPlanImg > img {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    object-fit: cover;
-}
-
-/* Fin du Plan d'accès */
-
-/* Début du footer */
-
-footer {
-    width: 80%;
-    height: 120px;
-    margin-left: 10%;
-    background-color: #E8E8E8;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.logoSocial {
-    height: 50px;
-    width: 50px;
-    margin-right: 5%;
-}
-
-/* Fin du footer */
->>>>>>> 295c2b6cb901b0c564fe949566c894528627a7b6
