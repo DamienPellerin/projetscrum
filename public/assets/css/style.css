@@ -2,7 +2,8 @@
     font-family: "Josefin";
     src: url("../../font/JosefinSans-VariableFont_wght.ttf");
 }
-*{ 
+
+* {
     margin: 0;
     padding: 0;
 }
@@ -165,8 +166,6 @@ button{
 
 /* Début de mise en forme du header */
 
-
-
 .logo {
     grid-area: 1 / 1 / 2 / 2;
     padding: 10px 10px 10px 10px;
@@ -207,9 +206,5 @@ header {
     background-color: #11AB7C;
     margin-left: 10%;
     height: 120px;
-
-
 }
-
-
 
