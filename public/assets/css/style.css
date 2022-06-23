@@ -1,4 +1,15 @@
-<<<<<<< HEAD
+@font-face {
+    font-family: "Josefin";
+    src: url("../../font/JosefinSans-VariableFont_wght.ttf");
+}
+
+/* Début de mise en forme du header */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #container {
     display: grid;
     grid-column-start: 1;
@@ -21,8 +32,6 @@
     width: 270px;
     height: 180px;
     background-color: red;
-
-
 }
 
 .topright {
@@ -34,8 +43,6 @@
     width: 270px;
     height: 90px;
     background-color: red;
-
-
 }
 
 .bottomleft {
@@ -47,8 +54,6 @@
     width: 270px;
     height: 120px;
     background-color: yellow;
-
-
 }
 
 .bottomright {
@@ -60,7 +65,6 @@
     width: 270px;
     height: 210px;
     background-color: red;
-
 }
 
 .text {
@@ -71,19 +75,6 @@
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 7;
-}
-
-=======
-@font-face {
-    font-family: "Josefin";
-    src: url("../../font/JosefinSans-VariableFont_wght.ttf");
-}
-
-/* Début de mise en forme du header */
-
-* {
-    margin: 0;
-    padding: 0;
 }
 
 .logo {
@@ -127,4 +118,3 @@ header {
     margin-left: 10%;
     height: 120px;
 }
->>>>>>> 553f64d3ce70b14ae06c7586b5ad5d5b06406783
