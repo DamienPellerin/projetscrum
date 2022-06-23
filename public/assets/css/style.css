@@ -25,7 +25,7 @@ header {
 .logo {
     grid-area: 1 / 1 / 2 / 2;
     padding: 10px 10px 10px 10px;
-    height: 80%;
+    height: 40%;
     margin-left: 20%;
 }
 
