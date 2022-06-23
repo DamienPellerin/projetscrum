@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Josefin";
+    src: url("../../font/JosefinSans-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    width: 80%;
+    height: 120px;
+    margin-left: 10%;
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logoSocial {
+    height: 50px;
+    width: 50px;
+    margin-right: 5%;
+}
