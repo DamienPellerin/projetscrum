@@ -8,12 +8,6 @@
     <title>Bourse High Tech</title>
 </head>
 <body>
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> a9a6048f697f53bfb6a5f02eecbc416164d5b420
     <header>
 
         <!-- Image du logo en blanc au format .svg -->
@@ -55,11 +49,13 @@
                 <p>L’évènement se tiendra sur le parking du campus de l’université, un plan d’accès est disponible sur cette page.</p>
             </div>
         </section>
+    <section>
 
-    <!--Formulaire d'inscription-->
+    
 
     <section id="formSubscription">
-        
+
+        <!--Formulaire d'inscription-->
 
         <h1>Formulaire d'inscriptions</h1>
 
@@ -68,17 +64,17 @@
             <label  for="lastname"></label>
             <input placeholder="Nom" type="text" name="lastname" id="lastname" />
 
-            <label  for="firstname"></label>
+            <label for="firstname"></label>
             <input placeholder="Prénom" type="text" name="firstname" id="firstname" /> <br>
 
             <label for="address"></label>
-            <input  rows="10" cols="30" placeholder="Adresse" name="address" id="address" autocomplete="street-address"></input> <br>
+            <textarea  rows="10" cols="30" placeholder="Adresse" name="address" id="address" autocomplete="street-address"></textarea> <br>
             
             <label for="email"></label>
             <input placeholder="Mail" type="email" name="email" id="email" /> <br>
 
             <label for="phone"></label>  
-            <input placeholder="Téléphone" type="tel" name="phone" id="phone" maxlength="10"/> <br>  
+            <input placeholder="Téléphone" type="number" name="phone" id="phone" maxlength="10"/> <br>  
             
             <!--Boutton d'envoi du formulaire-->
             <button type="submit" value="S'inscrire" #="submit">S'inscrire</button>
@@ -87,19 +83,6 @@
 
     </section>    
 
-    <section class="sanitInfo">
-        <div class="sanitInfoText">
-            <h2>Informations sanitaires</h2>
-            
-            <p>Il est impératif de continuer à respecter scrupuleusement les gestes barrières</p>
-            <ul>
-                <li>Lavage des mains</li>
-                <li>Éternuer et tousser dans son coude</li>
-                <li>Limiter les contacts</li>
-            </ul>
-        </div>
-    </section>
-
     <section id="accessPlan">
         <h2>Plan d'accès :</h2>
         <div class="accessPlanImg">
@@ -107,7 +90,11 @@
         </div>
     </section>
 
-</section>    
-
+    <footer>
+        <img src="./public/assets/img/mail.svg" alt="" class="logoSocial">
+        <img src="./public/assets/img/facebook.svg" alt="" class="logoSocial">
+        <img src="./public/assets/img/twitter.svg" alt="" class="logoSocial">
+        <img src="./public/assets/img/instagram.svg" alt="" class="logoSocial">
+    </footer>
 </body>
 </html>
