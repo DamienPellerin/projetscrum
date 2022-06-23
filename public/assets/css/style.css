@@ -25,15 +25,8 @@
 
 .topright {
     grid-area: 1/2/2/3;
-<<<<<<< HEAD
-
-    background-color: red;
-
-
-=======
     height: 100%;
     width: 100%;
->>>>>>> 295c2b6cb901b0c564fe949566c894528627a7b6
 }
 
 .bottomleft {
@@ -74,12 +67,7 @@
     border-radius: 10px;
 }
 
-
 /*Début mise en forme formulaire*/
-
-
-
-
 
 #formSubscription{
 
@@ -90,13 +78,6 @@
     background-color: #11AB7C;
 }
 
-<<<<<<< HEAD
-input::placeholder{
-    text-align: center;
-}
-
-=======
->>>>>>> 295c2b6cb901b0c564fe949566c894528627a7b6
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -109,10 +90,7 @@ h1{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-<<<<<<< HEAD
     color:white;
-=======
->>>>>>> 295c2b6cb901b0c564fe949566c894528627a7b6
 }
 
 #lastname{
@@ -216,8 +194,6 @@ nav li {
 
 /* Début du la zone "Informations Sanitaires" */
 
-<<<<<<< HEAD
-=======
 .sanitInfo {
     font-family: "Josefin";
     display: flex;
@@ -306,4 +282,3 @@ footer {
 }
 
 /* Fin du footer */
->>>>>>> 295c2b6cb901b0c564fe949566c894528627a7b6
