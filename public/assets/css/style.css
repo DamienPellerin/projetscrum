@@ -1,9 +1,7 @@
-font-face {
+@font-face {
     font-family: "Josefin";
     src: url("../../font/JosefinSans-VariableFont_wght.ttf");
 }
-<<<<<<< HEAD
-=======
 
 * {
     margin: 0;
@@ -11,7 +9,6 @@ font-face {
 }
 
 
->>>>>>> cb19bb6ecf4324b778698b41f81c59eafb258724
 
 #container {
     display: grid;
@@ -32,7 +29,7 @@ font-face {
 }
 
 .topright {
-    grid-area: 1/2/2/3
+    grid-area: 1/2/2/3;
 
     background-color: red;
 
@@ -55,21 +52,6 @@ font-face {
 }
 
 .text {
-<<<<<<< HEAD
-=======
-    grid-area: right;
-    width: 300px;
-    text-align: center;
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 7;
-}
-
-/*Début mise en forme formulaire*/
-
-#formSubscription{
->>>>>>> cb19bb6ecf4324b778698b41f81c59eafb258724
     width: 80%;
     text-align: center;
     grid-area: 1/2/2/3;
@@ -93,25 +75,39 @@ font-face {
 }
 
 
+
+#formSubscription{
+
+    font-family: 'Josefin';
+    width: 80%;
+    text-align: center;
+    height: 80%;
+    background-color: #11AB7C;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
     margin-left: 10%;
     width: 80%;
     justify-content: center;
-    
 }    
 
 
 h1{
-text-align: center;
-padding-top: 5%;
-padding-bottom: 5%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color:white;
 }
 
 
 #lastname{
-    width: 45%;
+    width: 47%;
     height: 100px;
     border-radius: 10px;
     background-color: rgba(232, 232, 232, 1);
@@ -121,11 +117,10 @@ padding-bottom: 5%;
 }
     
 #firstname{
-    width: 45%;
+    width: 47%;
     height: 100px;
     border-radius: 10px;
-    padding-left: 5%;
-    margin-left: 3%;
+    margin-left: 4%;
     background-color: rgba(232, 232, 232, 1);
     margin-top: 2%;
 }
@@ -154,11 +149,13 @@ padding-bottom: 5%;
 }
 
 button{
+    font-weight: bold;
     width: 40%;
     height: 100px;
     border-radius: 10px;
     background-color: rgba(13, 136, 205, 1);
     color: white;
+    margin-bottom: 3%; 
 }
 
 
@@ -208,54 +205,3 @@ header {
     height: 120px;
 }
 
-<<<<<<< HEAD
-=======
-
-
-#accessPlan {
-    font-family: "Josefin";
-    width: 80%;
-    height: 800px;
-    margin-left: 10%;
-    background-color: #11AB7C;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#accessPlan h2 {
-    margin-top: 2%;
-    color: white;
-    font-size: 200%;
-}
-
-.accessPlanImg {
-    width: 80%;
-    height: 70%;
-    margin-bottom: 5%;
-}
-
-.accessPlanImg > img {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    object-fit: cover;
-}
-
-footer {
-    width: 80%;
-    height: 120px;
-    margin-left: 10%;
-    background-color: #E8E8E8;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.logoSocial {
-    height: 50px;
-    width: 50px;
-    margin-right: 5%;
-}
->>>>>>> cb19bb6ecf4324b778698b41f81c59eafb258724
