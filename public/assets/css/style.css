@@ -52,6 +52,9 @@ nav li {
     color: white;
 }
 
+li a:hover {
+    color: rgba(13, 136, 205, 1);
+}
 /* Début article */
 
 #container {
@@ -113,15 +116,15 @@ nav li {
 }
 
 .imgGrid {
-    width: 88%;
+    width: 90%;
     height: 84%;
     grid-area: 1/1/2/2;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 30% 20% 50%;
+    grid-template-rows: 45% 10% 45%;
     row-gap: 3%;
     column-gap: 2%;
-    margin: 5%;
+    margin: 3%;
 }
 
 .imgHT {
@@ -286,6 +289,12 @@ button{
     margin-bottom: 5%;
 }
 
+iframe {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
 .accessPlanImg > img {
     width: 100%;
     height: 100%;
@@ -307,6 +316,10 @@ footer {
 
 .logoSocial {
     margin-right: 5%;
+}
+
+footer .mail {
+    background-image: url("../img/mail.svg");
 }
 
 .imgFooter {
