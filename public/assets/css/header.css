@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Josefin";
+    src: url("../../font/JosefinSans-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     font-family: 'Josefin';
     display: grid;
