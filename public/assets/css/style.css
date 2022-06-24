@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-/* Début header */
+/* ############# Début header ############# */
 
 header {
     font-family: 'Josefin';
@@ -85,7 +85,9 @@ li a:hover {
     border: 2px outset #0D88CD;
 }
 
-/* Début article */
+/* ############# Fin header ############# */
+
+/* ############# Début article ############# */
 
 #container {
     display: grid;
@@ -172,7 +174,10 @@ li a:hover {
 .iconsArticle:hover {
     transform: scale(1.1);
 }
-/* Début formulaire */
+
+/* ############# Fin article ############# */
+
+/* ############# Début formulaire ############# */
 
 #formSubscription{   
     font-family: "Josefin";
@@ -277,7 +282,9 @@ button:hover {
     border: 2px outset #0D88CD;
 }
 
-/* Début info sanitaires */
+/* ############# Fin formulaire ############# */
+
+/* ############# Début info sanitaire ############# */
 
 .sanitInfo {
     font-family: "Josefin";
@@ -316,7 +323,9 @@ button:hover {
     font-size: 200%;
 }
 
-/* Début plan d'accès */
+/* ############# Fin info sanitaire ############# */
+
+/* ############# Début plan d'accès ############# */
 
 #accessPlan {
     font-family: "Josefin";
@@ -355,7 +364,9 @@ iframe {
     object-fit: cover;
 }
 
-/* Début footer */
+/* ############# Fin plan d'acces ############# */
+
+/* ############# Début footer ############# */
 
 .footerIndex {
     width: 80%;
@@ -393,8 +404,9 @@ iframe {
     transform: scale(1.3);
 }
 
-/* fin footer */
+/* ############# Fin footer ############# */
 
+/* ############# Début page de connexion ############# */
 .main {
     position: relative;
 }
