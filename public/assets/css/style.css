@@ -52,11 +52,10 @@ nav li {
     color: white;
 }
 
-<<<<<<< HEAD
 li a:hover {
     color: linear-gradient(#11AB7C, #0D88CD);
 }
-=======
+
 .connexionButton {
     display: flex;
     justify-content: center;
@@ -78,7 +77,6 @@ li a:hover {
     padding: 10px;
 }
 
->>>>>>> dev
 /* Début article */
 
 #container {
@@ -251,14 +249,13 @@ button{
     width: 40%;
     height: 80px;
     border-radius: 10px;
-    background: linear-gradient(#085a8a, #0D88CD);
+    background: #0D88CD;
     color: white;
     margin-bottom: 5%;
     font-weight: bold;
     font-size: 20px;
     border: 0 none;
 }
-
 
 /* Début info sanitaires */
 
