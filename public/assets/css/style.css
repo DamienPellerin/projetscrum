@@ -387,19 +387,36 @@ footer .mail {
 
 #formConnection {
     font-family: "Josefin";
-    width: 50%;
-    margin-top: 5%;
-    margin-bottom: 50px;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
-    height: 500px;
+    height: 75vh;
+}
+
+.formConnectPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+#formConnection div {
+    width: 70%;
+    height: 75%;
+    margin-left: 15%;
+    margin-top: 5%;
     background-color: #11AB7C;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #formConnection h2{
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3;
     padding-bottom: 7%;
     color:white;
     font-size: 200%;
@@ -413,8 +430,8 @@ footer .mail {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin-top: 50px;
     border: 2px outset #E8E8E8;
+    width: 20%;
 }
 
 .buttonConnection:hover {
