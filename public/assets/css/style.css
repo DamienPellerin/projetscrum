@@ -120,17 +120,12 @@ nav li {
     flex-direction: column;
 }
 
-.text > h2 {
-    font-size: 200%;
-    color: black;
-}
-
-.text p {
-    font-size: 17px;
+.text p, h3 {
     width: 80%;
     margin-left: 10%;
     margin-top: -5%;
     text-align: justify;
+    font-weight: 400;
 }
 
 .imgGrid {
@@ -150,6 +145,12 @@ nav li {
     height: 100%;
     width: 100%;
     border-radius: 10px;
+}
+
+.iconsArticle {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
 }
 
 /* Début formulaire */

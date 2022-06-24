@@ -53,11 +53,12 @@
     flex-direction: column;
 }
 
-.text p {
+.text p, h3 {
     width: 80%;
     margin-left: 10%;
     margin-top: -5%;
     text-align: justify;
+    font-weight: 400;
 }
 
 .imgGrid {
@@ -77,4 +78,10 @@
     height: 100%;
     width: 100%;
     border-radius: 10px;
+}
+
+.iconsArticle {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
 }
