@@ -12,7 +12,7 @@ header {
     font-family: 'Josefin';
     display: grid;
     align-items: center;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 15% 65% 5% 10% 5%;
     grid-template-rows: 100%;
     width: 80%;
     background-color: #11AB7C;
@@ -48,4 +48,25 @@ nav li {
 .linkNavHeader {
     text-decoration: none;
     color: white;
+}
+
+.connexionButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 4 / 2 / 5;
+    height: 50%;
+    padding: -10px 50px -10px 50px;
+}
+
+.connexionButton > a {
+    text-align: center;
+    font-weight: bold;
+    border: solid #0D88CD;
+    border-radius: 20px;
+    background-color: #0D88CD;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
 }

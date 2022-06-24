@@ -9,21 +9,24 @@
 </head>
 <body>
     <header>
-
         <!-- Image du logo en blanc au format .svg -->
 
-        <img src="./public/assets/img/dev.svg" alt="Logo" class="logo">
+        <img src="./public/assets/img/LaManuUltraCompact_RVB_white.svg" alt="Logo" class="logo">
 
         <!-- Barre de navigatio -->
 
         <nav>
             <ul>
-                <li><a href="" class="linkNavHeader">Accueil</a></li>
+                <li><a href="./index.html#accueil" class="linkNavHeader">Accueil</a></li>
                 <li><a href="" class="linkNavHeader">Photos</a></li>
-                <li><a href="#formSubscription" class="linkNavHeader">Inscription</a></li>
-                <li><a href="#accessPlan" class="linkNavHeader">Plan d'accès</a></li>
+                <li><a href="./index.html#formSubscription" class="linkNavHeader">Inscription</a></li>
+                <li><a href="./index.html#accessPlan" class="linkNavHeader">Plan d'accès</a></li>
             </ul>
         </nav>
+
+        <div class="connexionButton">
+            <a href="./connectPage.html">Espace exposant</a>
+        </div>
     </header>
 
     <section id="container">
@@ -62,22 +65,23 @@
             <input placeholder="Nom" type="text" name="lastname" id="lastname" />
 
             <label for="firstname"></label>
-            <input placeholder="Prénom" type="text" name="firstname" id="firstname" />
+            <input placeholder="Prénom" type="text" name="firstname" id="firstname" /> <br>
 
-            <label for="address"></label>
-            <input  rows="10" cols="30" placeholder="Adresse" name="address" id="address" autocomplete="street-address"></input>
             <label for="email"></label>
-            <input placeholder="Mail" type="email" name="email" id="email" />
+            <input  rows="10" cols="30" placeholder="E-mail" name="email" id="email" type="email"></input> <br>
+            
+            <label for="password"></label>
+            <input placeholder="Mot de passe"  name="password" id="password" type="password" /> <br>
 
             <label for="phone"></label>  
-            <input placeholder="Téléphone" type="tel" name="phone" id="phone" maxlength="10"/>
+            <input placeholder="Téléphone" type="tel" name="phone" id="phone" maxlength="10"/> <br>  
             
             <!--Boutton d'envoi du formulaire-->
             <button type="submit" value="S'inscrire" #="submit">S'inscrire</button>
 
         </form>    
 
-    </section>    
+    </section>  
 
     <section class="sanitInfo">
         <div class="sanitInfoText">

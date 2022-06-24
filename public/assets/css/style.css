@@ -14,7 +14,7 @@ header {
     font-family: 'Josefin';
     display: grid;
     align-items: center;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 15% 65% 5% 10% 5%;
     grid-template-rows: 100%;
     width: 80%;
     background-color: #11AB7C;
@@ -25,7 +25,7 @@ header {
 .logo {
     grid-area: 1 / 1 / 2 / 2;
     padding: 10px 10px 10px 10px;
-    height: 80%;
+    height: 40%;
     margin-left: 20%;
 }
 
@@ -50,6 +50,27 @@ nav li {
 .linkNavHeader {
     text-decoration: none;
     color: white;
+}
+
+.connexionButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 4 / 2 / 5;
+    height: 50%;
+    padding: -10px 50px -10px 50px;
+}
+
+.connexionButton > a {
+    text-align: center;
+    font-weight: bold;
+    border: solid #0D88CD;
+    border-radius: 20px;
+    background-color: #0D88CD;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
 }
 
 /* Début article */
@@ -172,45 +193,50 @@ input::placeholder{
 
 #lastname{
     width: 48%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
     margin-bottom: 2%;
     margin-top: 2%;  
+    border: 0 none;
 }
     
 #firstname{
     width: 49%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     margin-left: 2%;
     background-color: rgba(232, 232, 232, 1);
     margin-top: 2%;    
+    border: 0 none;
 }
 
 
-#address{
+#password{
     width: 100%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
     margin-bottom: 2%;
+    border: 0 none;
 }
 
 #email{
     width: 100%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
     margin-bottom: 2%;
+    border: 0 none;
 }
 
 #phone{
     width: 100%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
     margin-bottom: 5%;
+    border: 0 none;
 }
 
 button{
@@ -221,7 +247,9 @@ button{
     background-color: rgba(13, 136, 205, 1);
     color: white;
     margin-bottom: 5%;
+    font-weight: bold;
     font-size: 20px;
+    border: 0 none;
 }
 
 
@@ -276,8 +304,8 @@ button{
 
 #accessPlan h2 {
     margin-top: 2%;
-    color: white;
     font-size: 200%;
+    color: white;
 }
 
 .accessPlanImg {
@@ -312,4 +340,44 @@ footer {
 .imgFooter {
     height: 50px;
     width: 50px;
+}
+
+.main {
+    position: relative;
+}
+
+#formConnection {
+    font-family: "Josefin";
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    text-align: center;
+    height: 500px;
+    background-color: #11AB7C;
+    border-radius: 10px;
+}
+
+#formConnection h2{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    color:white;
+    font-size: 200%;
+}
+
+.buttonConnection {
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+    border: solid rgba(13, 136, 205, 1);
+    background-color: rgba(13, 136, 205, 1);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.footerConnection {
+    position: absolute;
+    bottom: 0;
 }
