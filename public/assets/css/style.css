@@ -403,9 +403,9 @@ footer .mail {
 }
 
 #formConnection div {
-    width: 70%;
+    width: 60%;
     height: 75%;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 5%;
     background-color: #11AB7C;
     border-radius: 10px;
@@ -432,6 +432,7 @@ footer .mail {
     font-weight: bold;
     border: 2px outset #E8E8E8;
     width: 20%;
+    margin-top: 5%;
 }
 
 .buttonConnection:hover {
