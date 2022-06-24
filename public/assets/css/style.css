@@ -290,6 +290,10 @@ button{
     margin-left: -10%;
 }
 
+.sanitInfoText li {
+    list-style-type: circle;
+}
+
 .sanitInfoText h2 {
     color: black;
     font-size: 200%;
@@ -384,7 +388,7 @@ footer .mail {
 }
 
 .buttonConnection {
-    /* padding: 0px 0px 20px 50px; */
+    padding: 20px 50px 20px 50px;
     border-radius: 10px;
     border: solid rgba(13, 136, 205, 1);
     background-color: rgba(13, 136, 205, 1);
