@@ -368,6 +368,10 @@ footer {
     margin-right: 5%;
 }
 
+.logoSocial:hover {
+    transform: scale(1.3);
+}
+
 footer .mail {
     background-image: url("../img/mail.svg");
 }
