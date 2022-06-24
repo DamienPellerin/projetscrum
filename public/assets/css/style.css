@@ -56,7 +56,7 @@ nav li {
 }
 
 li a:hover {
-    color: linear-gradient(#11AB7C, #0D88CD);
+    color: #0D88CD;
 }
 
 .connexionButton {
@@ -76,8 +76,13 @@ li a:hover {
     background-color: #0D88CD;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px;
+    border: 2px outset #E8E8E8;
+}
+
+.connexionButton > a:hover {
+    border: 2px outset #0D88CD;
 }
 
 /* Début article */
@@ -262,6 +267,11 @@ button{
     font-weight: bold;
     font-size: 20px;
     border: 0 none;
+    border: 2px outset #E8E8E8;
+}
+
+button:hover {
+    border: 2px outset #0D88CD;
 }
 
 /* Début info sanitaires */
@@ -400,6 +410,11 @@ footer .mail {
     color: white;
     font-weight: bold;
     margin-top: 50px;
+    border: 2px outset #E8E8E8;
+}
+
+.buttonConnection:hover {
+    border: 2px outset #0D88CD;
 }
 
 .footerConnection {
