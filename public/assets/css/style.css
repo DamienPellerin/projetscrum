@@ -364,22 +364,33 @@ footer {
     align-items: center;
 }
 
-.logoSocial {
+i {
     margin-right: 5%;
+    margin: 50px;
+    color: black;
 }
 
-.logoSocial:hover {
+i:hover {
     transform: scale(1.3);
 }
 
-footer .mail {
-    background-image: url("../img/mail.svg");
+.fa-facebook:hover {
+    color: #4867AA;
 }
 
-.imgFooter {
-    height: 50px;
-    width: 50px;
+.fa-twitter:hover {
+    color: #1DA1F2;
 }
+
+.fa-instagram:hover {
+    color: #C9025E;
+}
+
+.fa-envelope:hover{
+    color: #D93025;
+}
+
+/* fin footer */
 
 .main {
     position: relative;
