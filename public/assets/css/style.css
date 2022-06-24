@@ -14,7 +14,7 @@ header {
     font-family: 'Josefin';
     display: grid;
     align-items: center;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 15% 65% 5% 10% 5%;
     grid-template-rows: 100%;
     width: 80%;
     background-color: #11AB7C;
@@ -52,9 +52,33 @@ nav li {
     color: white;
 }
 
+<<<<<<< HEAD
 li a:hover {
     color: linear-gradient(#11AB7C, #0D88CD);
 }
+=======
+.connexionButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1 / 4 / 2 / 5;
+    height: 50%;
+    padding: -10px 50px -10px 50px;
+}
+
+.connexionButton > a {
+    text-align: center;
+    font-weight: bold;
+    border: solid #0D88CD;
+    border-radius: 20px;
+    background-color: #0D88CD;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+>>>>>>> dev
 /* Début article */
 
 #container {
@@ -102,17 +126,12 @@ li a:hover {
     flex-direction: column;
 }
 
-.text > h2 {
-    font-size: 200%;
-    color: black;
-}
-
-.text p {
-    font-size: 17px;
+.text p, h3 {
     width: 80%;
     margin-left: 10%;
     margin-top: -5%;
     text-align: justify;
+    font-weight: 400;
 }
 
 .imgGrid {
@@ -132,6 +151,12 @@ li a:hover {
     height: 100%;
     width: 100%;
     border-radius: 10px;
+}
+
+.iconsArticle {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
 }
 
 /* Début formulaire */
@@ -175,45 +200,50 @@ input::placeholder{
 
 #lastname{
     width: 48%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
     margin-bottom: 2%;
     margin-top: 2%;  
+    border: 0 none;
 }
     
 #firstname{
     width: 49%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     margin-left: 2%;
     background-color: rgba(232, 232, 232, 1);
     margin-top: 2%;    
+    border: 0 none;
 }
 
 
-#address{
+#password{
     width: 100%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
     margin-bottom: 2%;
+    border: 0 none;
 }
 
 #email{
     width: 100%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
     margin-bottom: 2%;
+    border: 0 none;
 }
 
 #phone{
     width: 100%;
-    height: 100px;
-    border-radius: 10px;
+    height: 80px;
+    border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
     margin-bottom: 5%;
+    border: 0 none;
 }
 
 button{
@@ -224,7 +254,9 @@ button{
     background: linear-gradient(#085a8a, #0D88CD);
     color: white;
     margin-bottom: 5%;
+    font-weight: bold;
     font-size: 20px;
+    border: 0 none;
 }
 
 
@@ -279,8 +311,8 @@ button{
 
 #accessPlan h2 {
     margin-top: 2%;
-    color: white;
     font-size: 200%;
+    color: white;
 }
 
 .accessPlanImg {
@@ -325,4 +357,44 @@ footer .mail {
 .imgFooter {
     height: 50px;
     width: 50px;
+}
+
+.main {
+    position: relative;
+}
+
+#formConnection {
+    font-family: "Josefin";
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    text-align: center;
+    height: 500px;
+    background-color: #11AB7C;
+    border-radius: 10px;
+}
+
+#formConnection h2{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    color:white;
+    font-size: 200%;
+}
+
+.buttonConnection {
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+    border: solid rgba(13, 136, 205, 1);
+    background-color: rgba(13, 136, 205, 1);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.footerConnection {
+    position: absolute;
+    bottom: 0;
 }
