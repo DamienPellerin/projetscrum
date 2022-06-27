@@ -222,7 +222,8 @@ input::placeholder{
     border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
     margin-bottom: 2%;
-    margin-top: 2%;  
+    margin-top: 2%;
+    margin-right: 3%;
     border: 0 none;
 }
     
@@ -230,7 +231,6 @@ input::placeholder{
     width: 49%;
     height: 80px;
     border-radius: 150px;
-    margin-left: 2%;
     background-color: rgba(232, 232, 232, 1);
     margin-top: 2%;    
     border: 0 none;
@@ -238,7 +238,17 @@ input::placeholder{
 
 
 #password{
-    width: 100%;
+    width: 49%;
+    height: 80px;
+    border-radius: 150px;
+    background-color: rgba(232, 232, 232, 1);
+    margin-bottom: 2%;
+    border: 0 none;
+    margin-right: 3%;
+}
+
+#passwordConfirm {
+    width: 48%;
     height: 80px;
     border-radius: 150px;
     background-color: rgba(232, 232, 232, 1);
