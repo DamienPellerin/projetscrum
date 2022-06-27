@@ -447,7 +447,7 @@ iframe {
     padding-top: 3;
     padding-bottom: 7%;
     color:white;
-    font-size: 200%;
+    font-size: 25px;
 }
 
 .buttonConnection {
@@ -471,7 +471,7 @@ iframe {
     position: absolute;
     bottom: 0;
     width: 80%;
-    height: 120px;
+    height: 10%;
     margin-left: 10%;
     background-color: #E8E8E8;
     display: flex;
