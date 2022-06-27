@@ -289,6 +289,8 @@ button:hover {
 .sanitInfo {
     font-family: "Josefin";
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 80%;
     height: 400px;
     margin-left: 10%;
@@ -301,16 +303,14 @@ button:hover {
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    height: 70%;
-    margin-left: 10%;
-    margin-top: 2%;
+    height: 80%;
 }
 
 .sanitInfoText > p, ul {
     font-size: 25px;
 }
 
-.sanitInfoText ul {
+.sanitInfoText > ul {   
     margin-left: -10%;
 }
 
